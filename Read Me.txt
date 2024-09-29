@@ -1,0 +1,44 @@
+# News Portal
+
+A basic news portal built with PHP to manage and display news articles.
+
+## Developer
+
+**Jaimin Mevada**
+
+## Features
+
+- Display news articles by categories.
+- Admin panel to manage news content.
+
+## Technologies
+
+- PHP
+- MySQL
+- HTML/CSS
+
+## Setup Instructions
+
+1. Download the project and place it in your server's directory (e.g., `htdocs` for XAMPP).
+
+2. Import the `news_portal.sql` file into your MySQL database.
+
+3. Update the `config.php` file with your database credentials:
+   ```php
+   $host = "localhost";
+   $username = "root";
+   $password = "";
+   $database = "news_portal";
+   ```
+
+4. Open the project in your browser:
+   ```
+   http://localhost/news-portal/
+   ```
+
+## License
+
+This project is licensed under the minor project spce License.
+
+
+
